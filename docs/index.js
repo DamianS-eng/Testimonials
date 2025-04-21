@@ -39,7 +39,7 @@ window.onload = function(e) {
     const testimonialImg = document.createElement('img');
     testimonialImg.src = i.img;
     testimonialImg.alt = i.name;
-    testImonialIcon.appendChild(testimonialImg);
+    testimonialIcon.appendChild(testimonialImg);
     testimonialRow.appendChild(testimonialIcon);
   });  
   mainEle.appendChild(testimonialFocus);
